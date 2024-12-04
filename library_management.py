@@ -3,7 +3,7 @@ from typing import List, Optional
 
 
 class Book:
-    """Класс, представляющий книгу в библиотеке."""
+    """Класс, представляющий книгу в библиотеке"""
 
     def __init__(self, title: str, author: str, year: int, book_id: Optional[int] = None, status: str = "в наличии"):
         self.id = book_id
